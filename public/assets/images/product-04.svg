@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" fill="none">
+  <defs>
+    <filter id="shadow-VL-04" x="10%" y="65%" width="80%" height="25%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="800" height="560" fill="#ECEAE3"/>
+  <g stroke="#DEDBD2" stroke-width="1">
+    <line x1="56" y1="72" x2="744" y2="72"/>
+    <line x1="56" y1="488" x2="744" y2="488"/>
+  </g>
+  <ellipse cx="410" cy="422" rx="250" ry="18" fill="#171717" opacity="0.18" filter="url(#shadow-VL-04)"/>
+  
+      <g transform="translate(10, -8) rotate(-4 400 280)">
+        <path d="M135 375 C210 390, 380 395, 540 388 C610 384, 660 372, 685 356 L692 368 C655 390, 595 402, 520 404 C370 406, 210 402, 128 386 Z" fill="#222220"/>
+        <path d="M115 330 C135 310, 185 312, 260 320 C370 330, 510 334, 620 328 C665 326, 692 332, 698 348 C695 362, 672 372, 635 380 C515 396, 355 395, 132 376 C112 370, 105 344, 115 330 Z" fill="#FFFFFF" stroke="#D4D1C7" stroke-width="1.5"/>
+        <path d="M150 352 C260 364, 440 368, 635 352 C605 368, 450 378, 150 352 Z" fill="#FF5A1F"/>
+        <path d="M142 315 C142 260, 168 205, 206 172 C228 154, 255 162, 280 188 C312 220, 352 224, 398 182 C420 162, 448 164, 478 190 C540 242, 610 278, 678 304 C695 312, 698 326, 690 336 C615 328, 490 334, 365 326 C255 320, 180 312, 142 315 Z" fill="#F7F6F2"/>
+        <path d="M285 245 C345 238, 410 218, 465 198 C520 238, 578 272, 625 296 C560 312, 460 316, 355 308 C302 302, 276 276, 285 245 Z" fill="#E2DFD7"/>
+        <path d="M325 306 L408 202 L444 202 L362 309 Z" fill="#FF5A1F"/>
+        <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+          <line x1="435" y1="186" x2="480" y2="196"/>
+          <line x1="468" y1="208" x2="514" y2="218"/>
+          <line x1="502" y1="230" x2="548" y2="240"/>
+          <line x1="536" y1="252" x2="582" y2="262"/>
+        </g>
+      </g>
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#777772">
+    <text x="56" y="54" letter-spacing="0.08em">VELOCITY // VL-04</text>
+    <text x="56" y="516" letter-spacing="0.06em">PULSE NITRO ELITE</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" fill="none">
+  <defs>
+    <filter id="shadow-VL-02" x="10%" y="65%" width="80%" height="25%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="800" height="560" fill="#EAE8E1"/>
+  <g stroke="#DEDBD2" stroke-width="1">
+    <line x1="56" y1="72" x2="744" y2="72"/>
+    <line x1="56" y1="488" x2="744" y2="488"/>
+  </g>
+  <ellipse cx="410" cy="422" rx="250" ry="18" fill="#171717" opacity="0.18" filter="url(#shadow-VL-02)"/>
+  
+      <g transform="translate(8, -6) rotate(-2 400 280)">
+        <path d="M125 372 L185 388 L205 374 L285 390 L310 374 L425 392 L540 388 L565 372 L645 384 L685 362 L692 378 C640 404, 520 410, 380 410 C240 410, 165 398, 118 384 Z" fill="#111110"/>
+        <path d="M112 312 C155 298, 245 306, 380 314 C515 322, 625 312, 692 332 C704 345, 698 368, 675 376 C580 398, 430 402, 280 398 C185 395, 130 384, 112 368 C100 354, 102 322, 112 312 Z" fill="#262624" stroke="#3E3E3A" stroke-width="1.5"/>
+        <rect x="195" y="340" width="85" height="20" rx="10" fill="#32322F"/>
+        <rect x="315" y="344" width="120" height="18" rx="9" fill="#FF5A1F"/>
+        <path d="M135 306 C130 242, 158 182, 205 152 C235 135, 268 154, 302 184 C340 216, 385 212, 432 168 C458 144, 490 150, 525 182 C585 236, 638 272, 682 298 C695 308, 695 322, 686 332 C615 314, 500 322, 375 314 C250 306, 175 298, 135 306 Z" fill="#1E1E1C"/>
+        <path d="M195 235 C285 258, 435 268, 610 285 L585 314 C420 308, 280 296, 175 275 Z" fill="#32322F"/>
+        <path d="M210 252 C310 272, 460 282, 625 296" stroke="#FF5A1F" stroke-width="4.5" stroke-linecap="round"/>
+      </g>
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#777772">
+    <text x="56" y="54" letter-spacing="0.08em">VELOCITY // VL-02</text>
+    <text x="56" y="516" letter-spacing="0.06em">MONOLITH V2 LOW</text>
+  </g>
+</svg>

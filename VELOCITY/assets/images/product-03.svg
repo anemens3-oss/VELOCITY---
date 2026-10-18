@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" fill="none">
+  <defs>
+    <filter id="shadow-VL-03" x="10%" y="65%" width="80%" height="25%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="800" height="560" fill="#F0EDE6"/>
+  <g stroke="#DEDBD2" stroke-width="1">
+    <line x1="56" y1="72" x2="744" y2="72"/>
+    <line x1="56" y1="488" x2="744" y2="488"/>
+  </g>
+  <ellipse cx="410" cy="422" rx="250" ry="18" fill="#171717" opacity="0.18" filter="url(#shadow-VL-03)"/>
+  
+    <g transform="translate(10, -5) rotate(-3 400 280)">
+      <path d="M135 370 C235 384, 545 384, 682 360 L688 374 C555 398, 235 398, 128 382 Z" fill="#8C5A32"/>
+      <path d="M120 324 C165 310, 275 318, 415 324 C545 330, 638 322, 690 338 C698 350, 692 364, 675 370 C540 388, 250 388, 126 372 C112 360, 110 336, 120 324 Z" fill="#F7F4EE" stroke="#D8D5CC" stroke-width="1.5"/>
+      <path d="M142 320 C140 258, 168 198, 212 168 C242 148, 272 168, 308 196 C345 224, 388 218, 435 174 C462 150, 492 158, 528 190 C588 242, 638 278, 680 304 C692 314, 692 328, 684 338 C605 322, 480 328, 360 322 C245 316, 180 312, 142 320 Z" fill="#D6CBB9"/>
+      <path d="M210 265 C305 255, 445 245, 595 278 C545 308, 365 315, 210 265 Z" fill="#EAE3D5"/>
+      <path d="M335 316 L418 205 L458 205 L375 318 Z" fill="#B87B4B"/>
+      <circle cx="205" cy="348" r="10" fill="#B87B4B"/>
+    </g>
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#777772">
+    <text x="56" y="54" letter-spacing="0.08em">VELOCITY // VL-03</text>
+    <text x="56" y="516" letter-spacing="0.06em">TERRA FORM SUEDE</text>
+  </g>
+</svg>

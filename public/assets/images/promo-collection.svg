@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" fill="none">
+  <defs>
+    <radialGradient id="promoGlow" cx="55%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF5A1F" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#FF5A1F" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#171717" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="darkSole" x1="150" y1="360" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5F4F0"/>
+      <stop offset="65%" stop-color="#D8D5CC"/>
+      <stop offset="100%" stop-color="#9E9B93"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="600" rx="16" fill="#1F1F1D"/>
+  <circle cx="520" cy="300" r="300" fill="url(#promoGlow)"/>
+
+  <!-- Architectural perspective lines -->
+  <g stroke="#333330" stroke-width="1">
+    <line x1="60" y1="90" x2="900" y2="90"/>
+    <line x1="60" y1="510" x2="900" y2="510"/>
+    <line x1="480" y1="50" x2="480" y2="550" stroke-dasharray="5 7"/>
+    <circle cx="480" cy="300" r="210" stroke-dasharray="3 6"/>
+  </g>
+
+  <!-- Brutalist Pedestal Block -->
+  <path d="M180 445 L780 445 L830 510 L130 510 Z" fill="#292926" stroke="#3D3D38" stroke-width="1.5"/>
+  <rect x="130" y="510" width="700" height="24" fill="#141413"/>
+
+  <!-- Futuristic Silhouette Sneaker -->
+  <g transform="translate(20, -18) rotate(-3 480 320)">
+    <!-- Lugged Outsole -->
+    <path d="M180 418 L240 434 L255 422 L310 436 L330 424 L420 438 L580 436 L660 422 L680 432 L765 412 L795 395 L804 410 C750 442, 620 456, 470 456 C320 456, 225 446, 170 430 Z" fill="#FF5A1F"/>
+    <!-- Sculpted Midsole -->
+    <path d="M160 364 C210 346, 300 356, 420 364 C560 372, 700 362, 798 380 C810 390, 804 406, 785 414 C690 442, 540 446, 390 444 C265 442, 190 432, 162 416 C148 404, 148 374, 160 364 Z" fill="url(#darkSole)"/>
+    <!-- Midsole Cutouts -->
+    <rect x="245" y="388" width="95" height="18" rx="9" fill="#171717"/>
+    <rect x="370" y="392" width="130" height="16" rx="8" fill="#171717"/>
+    <rect x="530" y="390" width="110" height="16" rx="8" fill="#FF5A1F"/>
+
+    <!-- Aerodynamic Upper -->
+    <path d="M182 354 C180 290, 210 226, 255 190 C282 172, 310 185, 336 210 C370 242, 412 240, 462 192 C485 170, 518 172, 550 198 C615 250, 688 292, 772 322 C798 332, 804 356, 796 378 C705 362, 560 372, 420 364 C305 356, 225 348, 182 354 Z" fill="#121211" stroke="#3D3D38" stroke-width="2"/>
+
+    <!-- Reflective & Orange Accent Lines -->
+    <path d="M235 288 C330 302, 470 306, 685 335" stroke="#FF5A1F" stroke-width="5" stroke-linecap="round"/>
+    <path d="M265 252 C360 272, 495 280, 645 304" stroke="#F5F4F0" stroke-width="2.5" stroke-dasharray="10 6" stroke-linecap="round"/>
+    <path d="M395 348 L475 228 L515 228 L435 350 Z" fill="#FF5A1F"/>
+  </g>
+
+  <g font-family="'JetBrains Mono', monospace" font-size="12" fill="#A09E96">
+    <text x="85" y="72" letter-spacing="0.1em">CONCEPT DROP // FW-26</text>
+    <text x="720" y="72" letter-spacing="0.1em">CARBON + CORDURA®</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" fill="none">
+  <defs>
+    <filter id="shadow-VL-06" x="10%" y="65%" width="80%" height="25%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="800" height="560" fill="#E9E7E0"/>
+  <g stroke="#DEDBD2" stroke-width="1">
+    <line x1="56" y1="72" x2="744" y2="72"/>
+    <line x1="56" y1="488" x2="744" y2="488"/>
+  </g>
+  <ellipse cx="410" cy="422" rx="250" ry="18" fill="#171717" opacity="0.18" filter="url(#shadow-VL-06)"/>
+  
+      <g transform="translate(8, -10) rotate(-3 400 280)">
+        <path d="M130 372 L165 394 L190 376 L230 396 L260 376 L310 396 L345 376 L405 396 L445 376 L505 396 L545 376 L605 392 L640 372 L685 382 L695 362 L125 358 Z" fill="#171717"/>
+        <path d="M118 320 C165 308, 280 316, 420 322 C545 328, 638 318, 694 336 C702 348, 696 364, 680 370 C560 384, 260 384, 122 368 C110 356, 108 332, 118 320 Z" fill="#D8D4CA"/>
+        <path d="M138 316 C132 245, 152 175, 195 142 C225 122, 262 135, 295 168 C335 205, 382 204, 430 164 C458 142, 492 148, 530 182 C590 235, 642 275, 684 302 C696 312, 695 326, 688 336 C610 320, 480 326, 360 320 C245 314, 175 308, 138 316 Z" fill="#3A4238"/>
+        <path d="M180 314 L250 195 L340 220 L425 185 L535 255 L615 324 Z" fill="#252924" fill-opacity="0.75"/>
+        <path d="M235 314 L305 205 M335 318 L395 205 M435 322 L485 225" stroke="#FF5A1F" stroke-width="4" stroke-linecap="round"/>
+        <rect x="195" y="135" width="42" height="14" rx="7" fill="#FF5A1F"/>
+      </g>
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#777772">
+    <text x="56" y="54" letter-spacing="0.08em">VELOCITY // VL-06</text>
+    <text x="56" y="516" letter-spacing="0.06em">APEX TRAIL GORE</text>
+  </g>
+</svg>

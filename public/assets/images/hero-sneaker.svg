@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" fill="none">
+  <defs>
+    <radialGradient id="heroGlow" cx="52%" cy="54%" r="48%">
+      <stop offset="0%" stop-color="#FF5A1F" stop-opacity="0.14"/>
+      <stop offset="65%" stop-color="#E8E6DF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#F5F4F0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="soleGrad" x1="160" y1="380" x2="810" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#F2F0EA"/>
+      <stop offset="100%" stop-color="#D9D6CE"/>
+    </linearGradient>
+    <linearGradient id="upperGrad" x1="220" y1="190" x2="740" y2="410" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#262626"/>
+      <stop offset="50%" stop-color="#171717"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <linearGradient id="accentOrange" x1="200" y1="360" x2="680" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF5A1F"/>
+      <stop offset="100%" stop-color="#FF7E47"/>
+    </linearGradient>
+    <filter id="dropShadow" x="10%" y="65%" width="80%" height="30%" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- Studio background grid & technical framing -->
+  <rect width="960" height="640" rx="20" fill="#ECEAE3"/>
+  <circle cx="500" cy="340" r="310" fill="url(#heroGlow)"/>
+  <g stroke="#DAD7CD" stroke-width="1">
+    <line x1="80" y1="110" x2="880" y2="110" stroke-dasharray="4 6"/>
+    <line x1="80" y1="520" x2="880" y2="520"/>
+    <line x1="160" y1="60" x2="160" y2="580" stroke-dasharray="4 6"/>
+    <line x1="800" y1="60" x2="800" y2="580" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- Floor contact shadow -->
+  <ellipse cx="495" cy="492" rx="310" ry="24" fill="#171717" opacity="0.22" filter="url(#dropShadow)"/>
+
+  <!-- Sneaker illustration tilted slightly for dynamic motion -->
+  <g transform="translate(30, -10) rotate(-5 480 340)">
+    <!-- Outsole Rubber Treads -->
+    <path d="M168 438 C230 456, 390 462, 540 458 C655 454, 758 440, 804 415 L812 429 C760 458, 650 472, 530 474 C380 476, 230 470, 158 450 Z" fill="#171717"/>
+    <path d="M260 468 L360 472 L368 458 L266 455 Z" fill="#FF5A1F"/>
+    <path d="M560 471 L670 462 L676 449 L566 457 Z" fill="#FF5A1F"/>
+
+    <!-- Sculpted Nitro Midsole -->
+    <path d="M142 382 C162 356, 210 358, 275 366 C375 378, 520 385, 650 382 C725 380, 775 376, 816 396 C824 405, 818 418, 802 424 C742 446, 635 458, 520 460 C370 462, 228 456, 158 440 C138 434, 130 400, 142 382 Z" fill="url(#soleGrad)" stroke="#D0CDC3" stroke-width="1.5"/>
+
+    <!-- Carbon Plate & Midsole Aerodynamic Channel -->
+    <path d="M175 408 C280 422, 465 428, 668 414 C718 410, 758 404, 785 398 C752 416, 700 428, 635 432 C455 442, 280 436, 175 408 Z" fill="url(#accentOrange)"/>
+    <path d="M220 392 C330 404, 490 406, 630 398" stroke="#171717" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Upper Main Body -->
+    <path d="M174 362 C172 308, 194 242, 232 204 C252 184, 278 188, 298 212 C322 240, 355 252, 396 244 C426 238, 448 205, 476 184 C495 170, 520 176, 545 198 C602 248, 672 296, 762 328 C796 340, 814 362, 808 388 C765 376, 712 380, 642 382 C512 385, 370 378, 270 366 C225 360, 195 360, 174 362 Z" fill="url(#upperGrad)"/>
+
+    <!-- Technical Ripstop Translucent Mesh Window -->
+    <path d="M335 282 C395 274, 468 252, 528 228 C584 268, 646 306, 704 334 C638 354, 535 360, 422 350 C362 344, 326 318, 335 282 Z" fill="#F5F4F0" fill-opacity="0.92"/>
+    <!-- Mesh Grid Pattern -->
+    <path d="M365 295 L665 335 M385 275 L635 315 M425 258 L595 288 M410 342 L485 245 M465 348 L535 242 M525 352 L585 265 M585 350 L632 290" stroke="#D5D2C8" stroke-width="1.5"/>
+
+    <!-- Bold VELOCITY Diagonal Vector Stripe -->
+    <path d="M372 346 L468 232 L512 232 L416 350 Z" fill="#FF5A1F"/>
+    <path d="M432 351 L526 236 L552 242 L460 353 Z" fill="#171717"/>
+
+    <!-- Heel Counter Architectural Cage -->
+    <path d="M174 362 C175 322, 190 278, 218 254 L298 312 L272 366 C230 361, 198 360, 174 362 Z" fill="#2E2E2C" stroke="#444440" stroke-width="1.5"/>
+    <path d="M192 344 L268 354" stroke="#FF5A1F" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Collar & Tongue Pull Loops -->
+    <path d="M214 218 C196 198, 192 174, 212 166 C228 160, 240 182, 232 204" stroke="#FF5A1F" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M468 188 C478 162, 502 148, 522 156 C535 162, 535 180, 528 190" fill="#262626" stroke="#FF5A1F" stroke-width="2.5"/>
+
+    <!-- Lacing System / Eyelets -->
+    <g stroke="#F5F4F0" stroke-width="4.5" stroke-linecap="round">
+      <line x1="492" y1="202" x2="544" y2="212"/>
+      <line x1="524" y1="224" x2="578" y2="234"/>
+      <line x1="558" y1="246" x2="612" y2="256"/>
+      <line x1="592" y1="268" x2="646" y2="278"/>
+      <line x1="628" y1="290" x2="678" y2="298"/>
+    </g>
+    <g fill="#FF5A1F">
+      <circle cx="492" cy="202" r="4"/>
+      <circle cx="524" cy="224" r="4"/>
+      <circle cx="558" cy="246" r="4"/>
+      <circle cx="592" cy="268" r="4"/>
+      <circle cx="628" cy="290" r="4"/>
+    </g>
+
+    <!-- Toe Bumper Guard -->
+    <path d="M712 312 C754 326, 796 342, 808 388 C772 378, 732 380, 692 381 C702 355, 708 332, 712 312 Z" fill="#2A2A28"/>
+  </g>
+
+  <!-- Technical Spec Annotations -->
+  <g font-family="'JetBrains Mono', monospace" font-size="12" fill="#555550">
+    <text x="100" y="92" letter-spacing="0.08em">MODEL: VELOCITY AERO-X CARBON</text>
+    <text x="690" y="92" letter-spacing="0.08em">DROP: 8.0 MM / 218 G</text>
+    <text x="100" y="555" letter-spacing="0.08em">NITRO-PEBAX® DUAL FOAM SYSTEM</text>
+    <text x="710" y="555" letter-spacing="0.08em">STUDIO RENDER // 01</text>
+  </g>
+</svg>
